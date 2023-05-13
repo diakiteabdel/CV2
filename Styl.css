@@ -1,0 +1,43 @@
+
+
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.gauche{
+    width: 30%;
+    height: auto;
+    background-color: blue;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+ 
+ .image img{
+     width: 162px;
+     height: 162px;
+     border-radius: 50%;
+ }
+
+ .bar{
+    width: 270px;
+    height: 4px;
+    background-color: white;
+ }
+
+ .gras{
+    font-weight: bold;
+ }
+ .info{
+    margin-left: 10px;
+ }

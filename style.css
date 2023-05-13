@@ -1,0 +1,50 @@
+html{
+  box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+
+*{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+    --bleunuit :var(--bleunuit)
+    --rouge :red;
+    --rose:pink;
+    --blanc:var(--blanc)
+    --bleu:blue;
+}
+
+.conteneurGrl{
+    display: flex;
+}
+
+.conteneurG{
+    width: 22%;
+    height: auto;
+    background: var(--bleunuit);
+}  
+
+.image{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.image img{
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+}
+
+.info{
+    width: 20%;
+}
